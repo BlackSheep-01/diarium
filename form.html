@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Diarium 📗</title>
+</head>
+
+
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav_brand">
+                <!-- source code of the svg logo pasted and some attributes cleaned up-->
+                <svg viewBox="0 0 60.7863869853 60.7863869853" class="nav_brand_logo">
+                    <defs>
+                        <style>
+                            .uuid-f1de6254-0820-4376-87ff-f875521b7fef {
+                            fill: #71b68a;
+                            }
+                        </style>
+                    </defs>
+                    <path style="fill:currentColor" d="m45.589790239,30.3931934927c8.3928407749,0,15.1965967463-6.8037559715,15.1965967463-15.1965967463S53.9826310139,0,45.589790239,0H15.196554313C6.8037135382,0,0,6.8037559715,0,15.1965967463v30.3931934927c0,8.3928407749,6.8037135382,15.1965967463,15.196554313,15.1965967463h30.393235926c8.3928407749,0,15.1965967463-6.8037559715,15.1965967463-15.1965967463s-6.8037559715-15.1965967463-15.1965967463-15.1965967463Z"/>
+                </svg>
+                DIARIUM
+            </a>
+
+            <a href="form.html" class="button">
+                <!-- source code of svg plus pasted and cleaned up-->
+                <svg viewBox="0 0 44.4901230052 44.4901230053" class="button_plus">
+                    <g style="fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;">  <!-- currentColor refers to the current font color -->
+                        <circle  cx="22.2450615026" cy="22.2450615026" r="21.2450615026"/>
+                        <line  x1="22.2450615026" y1="13.4699274037" x2="22.2450615026" y2="31.0201956015"/>
+                        <line  x1="31.0201956015" y1="22.2450658041" x2="13.4699274037" y2="22.2450572011"/>
+                    </g>
+                </svg>
+                New entry
+            </a>
+        </div>
+    </nav>
+
+
+    <main class="main">
+        <div class="container">
+            <h1 class="main_heading">New Entry</h1>
+
+            <form action="form.html" method="post">
+                <div class="form_group" id="form-date">
+                    <label for="date" class="form_group_label">Date :</label>
+                    <input type="date" id="date" name="date" class="form_group_input">
+                </div>
+                <div class="form_group">
+                    <label for="title" class="form_group_label">Title :</label>
+                    <input type="text" id="title" name="title" class="form_group_input">
+                </div>
+                <div class="form_group" id="form-msg">
+                    <label for="message" class="form_group_label">Message :</label>
+                    <textarea name="message" id="message" class="form_group_input" rows="6"></textarea>
+                </div>
+                <div class="form_submit">
+                    <button class="button">
+                        <svg viewBox="0 0 34.7163912799 33.4350009649" class="button_plus">
+                            <g style="fill: none;
+                                    stroke: currentColor;
+                                    stroke-linecap: round;
+                                    stroke-linejoin: round;
+                                    stroke-width: 2px;">
+                            <polygon class="uuid-227ecc73-5fef-4efb-920c-3f9dd27ef3fc" points="20.6844359446 32.4350009649 33.7163912799 1 1 10.3610302393 15.1899978903 17.5208901631 20.6844359446 32.4350009649"/>
+                            <line class="uuid-227ecc73-5fef-4efb-920c-3f9dd27ef3fc" x1="33.7163912799" y1="1" x2="15.1899978903" y2="17.5208901631"/>
+                            </g>
+                        </svg>
+                        Save!
+                    </button>
+                </div>
+                
+            </form>
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer_heading">Weekly Journal &copy;NRoy</h3>
+            <p class="footer_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae similique perferendis quibusdam odit totam alias amet, mollitia eos voluptate laborum deserunt deleniti, dicta consequatur reiciendis soluta maxime dolore, aspernatur molestiae!</p>
+        </div>   
+    </footer>
+
+</body>
+
+</html>
