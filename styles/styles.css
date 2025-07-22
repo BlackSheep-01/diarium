@@ -231,7 +231,9 @@ html {
 /* ------------------------ FOOTER ------------------------ */
 .footer{
     background-color: #113343;
-    padding: 3rem 0;
+    padding: 2rem 0;
+    text-align: center;
+    
 }
 .footer::after{
     content: "";
@@ -243,12 +245,8 @@ html {
 }
 
 .footer_heading{
-    color: white;
-}
-
-.footer_description{
-    color: #71b68a;
-    max-width: 20rem;
+    padding: 0 15rem;
+    color: aliceblue;
 }
 
 
