@@ -2,8 +2,7 @@
 A simple diary web app built with PHP and MySQL where users can write entries with optional images. Entries are stored in the database and shown in reverse chronological order with pagination.
 
 
-### 🔗 Live Demo  
-[Diarium](http://phpdiary.byethost16.com/index.php)
+## Live Demo:  [Diarium](http://phpdiary.byethost16.com/index.php)
 
 
 ## ✅ Features
